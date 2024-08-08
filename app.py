@@ -47,7 +47,7 @@ valor = st.sidebar.slider('Escolha uma imagem:', min_value=1, max_value=78, valu
 dic_animal = {"Cachorro":"dog","Gato":"cat"}
 an_path = dic_animal[animal]
 
-img_path = rf'data\{an_path}s\{an_path}.{valor}.jpg'
+img_path = rf'{an_path}s\{an_path}.{valor}.jpg'
 
 
 
